@@ -1,0 +1,132 @@
+body {
+    background-color: #ffffff;
+    color: rgb(34, 10, 3);
+    background-size: cover;
+}
+
+.containerPrincipal {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #2e2e48;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerCentral {
+    display: flex;
+    min-height: 100vh;
+    width: 1200px;
+    background-color: #482e46;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerTopo {
+    display: flex;
+    background-color: #b4a7d6;
+    height: 60px;
+    width: 100%;    
+    justify-content: space-between;
+}
+
+.containerLogo {
+    display: flex;
+    background-color: #b4a7d6;
+    height: 60px;
+    width: 200px;
+}
+
+/* Menu de Opções */
+.containerMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #58499c;
+    height: 60px;
+    width: 600px;
+}
+
+.item-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+
+    text-decoration: none;
+    color: #D5E4CF;
+    padding: 12px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    box-sizing: border-box;
+}
+
+.item-menu:hover {
+    background-color: #302a83;
+    color: white;
+}
+
+.containerSeperacao {
+    display: flex;
+    height: 60px;
+    width: 150px;
+    background-color: #42b3df;
+}
+
+/*Banner de Exibição Inicial */
+.containerBanner {
+    display: flex;
+    background-color: rgb(241, 9, 9);
+    height: 350px;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: start;
+}
+
+/* Editar imagem */
+.imagemAnimal {
+    height: 350px;
+    width: 100;
+}
+
+/*Container Texto Quem Somos*/
+.containerTextoLadoBanner {
+    display: flex;
+    background-color: rgb(241, 9, 9);
+    height: 300px;
+    width: 400px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.item-TextoBanner {
+    color: #D5E4CF;
+    font-size: 17px;
+}
+
+.containerEspaco {
+    display: flex;
+    background-color: rgb(241, 9, 9);
+    height: 300px;
+    width: 80px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Container Texto */
+.containerTexto {
+    display: flex;
+    background-color: rgb(33, 50, 199);
+    height: 400px;
+    width: 800px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
