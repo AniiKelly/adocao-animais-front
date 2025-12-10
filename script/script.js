@@ -10,23 +10,25 @@ async function getAnimals(){
     return data;    
 }
 
-
 async function showAnimals(){
     const animals = await getAnimals();
     let htmlData = ''
 
+/*<a href="informacoes-animal.html?id=${animal.id}">*/
+
     for (const animal of animals) {
       const htmlAnimal = `
-       <div class = "caixinhaFotoAnimal">
-            <img class = "animalEditadoFoto" src ="../IMAGENS/CachorraLilica.png">
+       <div class="caixinhaFotoAnimal">
+          <a href="informacoes-animal.html?id=${animal.id}">
+            <img class="animalEditadoFoto" src="${animal.url}">
+            <p class="nomeAnimal">${animal.nome}</p>
+          </a>
         </div>
       `
-      htmlData = htmlData + htmlAnimal;
+      htmlData += htmlAnimal;
     }
 
     cachorroContainer.innerHTML = htmlData    
-
 }
-
 
 showAnimals();

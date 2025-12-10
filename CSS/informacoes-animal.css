@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e2e48;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.containerPrincipal {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #2e2e48;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerCentral {
+    display: flex;
+    min-height: 100vh;
+    width: 1200px;
+    background-color: #fdc751;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerTopo {
+    display: flex;
+    background-color: #58499c;
+    height: 60px;
+    width: 100%;    
+    justify-content: space-between;
+}
+
+.containerLogo {
+    display: flex;
+    background-color: #58499c;
+    height: 60px;
+    width: 200px;
+}
+
+/* Menu de Opções */
+.containerMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #58499c;
+    height: 60px;
+    width: 600px;
+}
+
+.item-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+
+    text-decoration: none;
+    color: #D5E4CF;
+    padding: 12px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    box-sizing: border-box;
+}
+
+.item-menu:hover {
+    background-color: #302a83;
+    color: white;
+}
+
+.card {
+    background: #ffeb9c;
+    width: 900px;
+    padding: 20px;
+    border-radius: 12px;
+    display: flex;
+    gap: 30px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.image-container img {
+    width: 330px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+}
+
+.name {
+    font-size: 32px;
+    margin: 0;
+}
+
+.subtitle {
+    color: #555;
+    margin-top: 5px;
+}
+
+.info p {
+    margin: 4px 0;
+    color: #666;
+}
+
+.contact-btn {
+    display: inline-block;     
+    background-color: #58499c;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 25px 0 30px 0;     
+    cursor: pointer;
+    text-decoration: none;     
+}
+
+.contact-btn:hover {
+    background-color: #58499c;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+.link {
+    display: block;
+    margin: 5px 0 15px;
+    color: #5b2deb;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.tags span {
+    background: #ece9ff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: #5b2deb;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.containerEspacoRodape {
+    display: flex;
+    height: 50px;
+    width: 1200px;
+    background-color: #58499c;
+}
+
+.containerRodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    height: 130px;
+    width: 1200px;
+    background-color: #58499c;
+}
+
+.rodape {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+}
+
+.rodapeA {
+    text-decoration: none;
+    color: white;
+}

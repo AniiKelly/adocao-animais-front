@@ -17,14 +17,14 @@ body {
     display: flex;
     min-height: 100vh;
     width: 1200px;
-    background-color: #482e46;
+    background-color: #8e7ce3;
     flex-direction: column;
     align-items: center;
 }
 
 .containerTopo {
     display: flex;
-    background-color: #b4a7d6;
+    background-color: #58499c;
     height: 60px;
     width: 100%;    
     justify-content: space-between;
@@ -32,7 +32,7 @@ body {
 
 .containerLogo {
     display: flex;
-    background-color: #b4a7d6;
+    background-color: #58499c;
     height: 60px;
     width: 200px;
 }
@@ -78,7 +78,7 @@ body {
 /*Banner de Exibição Inicial */
 .containerBanner {
     display: flex;
-    background-color: rgb(241, 9, 9);
+    background-color: #8e7ce3;
     height: 350px;
     width: 100%;
     align-items: center;
@@ -95,7 +95,7 @@ body {
 /*Container Texto Quem Somos*/
 .containerTextoLadoBanner {
     display: flex;
-    background-color: rgb(241, 9, 9);
+    background-color: #8e7ce3;
     height: 300px;
     width: 400px;
     align-items: center;
@@ -111,7 +111,7 @@ body {
 
 .containerEspaco {
     display: flex;
-    background-color: rgb(241, 9, 9);
+    background-color: #8e7ce3;
     height: 300px;
     width: 80px;
     align-items: center;
@@ -122,11 +122,92 @@ body {
 /* Container Texto */
 .containerTexto {
     display: flex;
-    background-color: rgb(33, 50, 199);
+    background-color: #8e7ce3;
     height: 400px;
     width: 800px;
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    text-align: justify;
+}
+
+.containerEspacoT {
+    display: flex;
+    background-color: #58499c;
+    height: 50px;
+    width: 1200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tituloDivisor {
+    color: #D5E4CF;              
+    font-size: 22px;             
+    margin: 0;
+    padding: 12px 10px;          
+    border-radius: 8px;         
+    font-weight: bold;
+}
+
+.containerEspacoRodape {
+    display: flex;
+    height: 50px;
+    width: 1200px;
+    background-color: #58499c;
+}
+
+.containerRodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    height: 130px;
+    width: 1200px;
+    background-color: #58499c;
+}
+
+.rodape {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+}
+
+.rodapeA {
+    text-decoration: none;
+    color: white;
+}
+
+/* Container Foto */
+.containerFotosTexto {
+    display: flex;
+    width: 100%;
+    background-color: #8e7ce3;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 40px;
+}
+
+.colunaFotos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fotoLateral {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px solid #58499c;
+}
+
+.containerTextoNovo {
+    width: 500px;
     text-align: justify;
 }

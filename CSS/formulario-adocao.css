@@ -1,0 +1,178 @@
+body {
+    background-color: #ffffff;
+    color: rgb(34, 10, 3);
+    background-size: cover;
+}
+
+.containerPrincipal {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #2e2e48;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerCentral {
+    display: flex;
+    min-height: 100vh;
+    width: 1200px;
+    background-color: #fdc751;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerTopo {
+    display: flex;
+    background-color: #58499c;
+    height: 60px;
+    width: 100%;    
+    justify-content: space-between;
+}
+
+.containerLogo {
+    display: flex;
+    background-color: #58499c;
+    height: 60px;
+    width: 200px;
+}
+
+/* Menu de Opções */
+.containerMenu {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: #58499c;
+    height: 60px;
+    width: 600px;
+}
+
+.item-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 120px;
+
+    text-decoration: none;
+    color: #D5E4CF;
+    padding: 12px 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+    box-sizing: border-box;
+}
+
+.item-menu:hover {
+    background-color: #302a83;
+    color: white;
+}
+
+.containerTituloForm {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tituloForm {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fffbfb;
+}
+
+.subtituloForm {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #fffbfb;
+}
+
+.formAdocao {
+    width: 70%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formAdocao label {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #fffbfb; 
+}
+
+.formAdocao input,
+.formAdocao select,
+.formAdocao textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+}
+
+.tituloSessao {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fffbfb;
+}
+
+.containerBotaoEnviar {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.botaoEnviar {
+    padding: 12px 35px;
+    font-size: 18px;
+    background-color: #ff7b00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.botaoEnviar:hover {
+    background-color: #e56d00;
+}
+
+.containerEspacoRodape {
+    display: flex;
+    height: 50px;
+    width: 1200px;
+    background-color: #58499c;
+}
+
+.containerRodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    height: 130px;
+    width: 1200px;
+    background-color: #58499c;
+}
+
+.rodape {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-direction: column;
+    color: white;
+    gap: 5px;
+}
+
+.rodapeA {
+    text-decoration: none;
+    color: white;
+}
+
+.containerEspacoT {
+    display: flex;
+    background-color: #58499c;
+    height: 50px;
+    width: 1200px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

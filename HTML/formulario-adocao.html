@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Adoção</title>
+    <link rel="stylesheet" href="../CSS/formulario-adocao.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="containerPrincipal">
+        <div class="containerCentral">
+
+            <!-- TOPO -->
+            <div class="containerTopo">
+                <div class="containerLogo"></div>
+
+                <div class="containerMenu">
+                    <a href="../HTML/quemsomos.html" class="item-menu">Quem somos</a>
+                    <a href="../HTML/entrar.html" class="item-menu">Entrar</a>
+                    <a href="../HTML/cadastrar.html" class="item-menu">Cadastrar-se</a>
+                    <a href="../HTML/telainicial.html" class="item-menu">Início</a>
+                </div>
+            </div>
+
+            <!-- BANNER / TÍTULO -->
+            <div class="containerTituloForm">
+                <h1 class="tituloForm">Formulário de Adoção</h1>
+                <p class="subtituloForm">Preencha suas informações para concluirmos o processo de adoção 💚🐾</p>
+            </div>
+
+            <!-- FORMULÁRIO -->
+            <form class="formAdocao">
+
+                <h2 class="tituloSessao">Seus dados</h2>
+
+                <label>Nome completo *</label>
+                <input type="text" required>
+
+                <label>Idade *</label>
+                <input type="number" required>
+
+                <label>Telefone para contato *</label>
+                <input type="tel" required>
+
+                <label>E-mail *</label>
+                <input type="email" required>
+                
+
+                <h2 class="tituloSessao">Seu lar</h2>
+
+                <label>Você mora em:</label>
+                <select required>
+                    <option>Casa</option>
+                    <option>Apartamento</option>
+                    <option>Sítio / Fazenda</option>
+                </select>
+
+                <label>O local é:</label>
+                <select required>
+                    <option>Próprio</option>
+                    <option>Alugado</option>
+                    <option>Cedido</option>
+                </select>
+
+                <label>Possui telas de proteção?</label>
+                <select required>
+                    <option>Sim</option>
+                    <option>Não</option>
+                    <option>Parcialmente</option>
+                </select>
+
+                <label>Outros animais na casa?</label>
+                <textarea rows="3" placeholder="Cães, gatos… e como é a convivência"></textarea>
+
+
+                <h2 class="tituloSessao">Sobre a adoção</h2>
+
+                <label>Por que deseja adotar este animal? *</label>
+                <textarea required rows="4"></textarea>
+
+                <label>Você concorda com a adoção responsável?</label>
+                <select required>
+                    <option>Sim</option>
+                    <option>Não</option>
+                </select>
+
+                <div class="containerBotaoEnviar">
+                    <button type="submit" class="botaoEnviar">Enviar formulário</button>
+                </div>
+            </form>
+
+            <!-- ESPAÇAMENTO ANTES DO RODAPÉ -->
+            <div class="containerEspacoRodape"></div>
+
+            <!-- RODAPÉ -->
+            <div class="containerRodape">
+                <footer class="rodape">
+                    <span><b>ADOTE</b></span>
+                    <span>Adote com responsabilidade</span>
+                    <span>Pesquisar animais</span>
+                </footer>
+
+                <footer class="rodape">
+                    <span><b>COLABORE</b></span>
+                    <span>Doe qualquer valor</span>
+                    <span>Seja uma Empresa Parceira</span>
+                </footer>
+
+                <footer class="rodape">
+                    <span><b>DIVULGUE UM ANIMAL</b></span>
+                    <span>Cadastrar animal</span>
+                    <span>Seja uma Empresa Parceira</span>
+                </footer>
+
+                <footer class="rodape">
+                    <span><b>SOBRE O MIAUDOTE</b></span>
+                    <span>Sobre o MiauDote</span>
+                    <span>Perguntas frequentes</span>
+                    <span>Termo de Uso e Política de Privacidade</span>
+                </footer>
+
+                <footer class="rodape">
+                    <span><b>PERFIL</b></span>
+                    <span>Minha página de perfil</span>
+                    <span>Cadastre-se</span>
+                </footer>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

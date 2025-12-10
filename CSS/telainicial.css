@@ -94,9 +94,9 @@ body {
 /* Caixinhas de perfis animais*/
 .containerDuasCaixinhas {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 330px;
+    flex-wrap: wrap;            /* QUEBRA A LINHA */
+    justify-content: center;    /* centraliza as caixinhas */
+    gap: 20px;                  /* espaço entre elas */
     width: 100%;
     background-color: #ffeb9c;
 }
@@ -159,7 +159,7 @@ body {
     display: flex;
     height: 50px;
     width: 1200px;
-    background-color: #fdc751;
+    background-color: #58499c;
 }
 
 .containerRodape {
@@ -168,7 +168,7 @@ body {
     align-items: start;
     height: 130px;
     width: 1200px;
-    background-color: #fdc751;
+    background-color: #58499c;
 }
 
 .rodape {
@@ -205,6 +205,6 @@ body {
 }
 
 .animalEditadoFoto {
-    width: 245px;
-    height: 295px;
+    width: 200px;
+    height: 250px;
 }
